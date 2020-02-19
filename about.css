@@ -46,50 +46,28 @@ div.bar a:hover, nav a:active{
 
 
 /* aligns the article on where to go */
-article h1{
+article{
     text-align: center;
-    font-size: 42px;
+    font-family: 'Aldrich', sans-serif; 
 }
 
-/* the caption of wwhat each photo is and their aligment along with font size */
-figcaption{
-    text-align: center;
-    font-family: 'Aldrich', sans-serif;
+article h1, h2, h3{
+    font-size: 30px;
 }
 
-figure img{
-    width:50%;
-    height: 50%;
-    align-content: center;
+article p{
+    font-size: 20px;
 }
 
-figure{
-    margin:10px;
-   
+.spiddan{
+    border: 5px outset;
+    height: 35%;
+    width: 35%;
 }
 
-/* defines where and how to use the rows and their sizes so each one is different */
-div.row{
-    clear: both;
-    margin: 0px 10px;
+.drdan{
+    border: 3.5px outset;
 }
-div.row::after{
-    clear: both;
-    content: "";
-    display: table;
-}
-
-div[class^="col-"]{
-    float: left;
-}
-
-div.col-1-2{
-    margin-top: 30px;
-}
-
-
-div.col-1-1{width: 100%}
-div.col-1-2{width: 50%}
 
 
 
@@ -112,12 +90,13 @@ footer p{
  
 div.bottom {
     background-color: rgb(10, 10, 10);
-    padding: 8px;
-    font-size: 1em;
+    padding: 10px;
+    font-size: 20px;
     line-height: 1.8em;
     color: white;
     text-align: center;
     word-spacing: 30px;
+    margin: 30px;
 }
 div.bottom a:visited, nav a:link{
     color: 	#f8f8ff;
