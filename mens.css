@@ -121,3 +121,22 @@ div.bottom a:visited, nav a:link{
 div.bottom a:hover, nav a:active{
     color: gold;
 }
+
+/*Aside styles*/
+aside h1{
+    text-align: center;
+    font-size: 2em;
+
+}
+
+/*Body Styles*/
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1020px;
+    min-width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+

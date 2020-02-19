@@ -120,3 +120,10 @@ div.bottom a:visited, nav a:link{
 div.bottom a:hover, nav a:active{
     color: gold;
 }
+
+/*Aside styles*/
+aside h1{
+    text-align: center;
+    font-size: 2em;
+    
+}
