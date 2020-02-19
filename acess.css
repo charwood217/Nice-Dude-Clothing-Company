@@ -26,6 +26,7 @@ div.bar{
 }
 div.bar a{
     margin: 14px;
+    text-decoration: none;
 }
 
 .imgnav{
@@ -60,12 +61,12 @@ figcaption{
 figure img{
     width:50%;
     height: 50%;
-    align-content: center;
+    text-align: center;
+    border:  grey 5px outset;
 }
 
 figure{
     margin:10px;
-   
 }
 
 /* defines where and how to use the rows and their sizes so each one is different */
@@ -84,7 +85,7 @@ div[class^="col-"]{
 }
 
 div.col-1-2{
-    margin-top: 30px;
+    text-align: center;
 }
 
 
