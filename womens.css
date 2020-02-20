@@ -21,6 +21,7 @@ div.bar{
 }
 div.bar a{
     margin: 14px;
+    text-decoration: none;
 }
 
 .imgnav{

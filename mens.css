@@ -22,6 +22,7 @@ div.bar{
 }
 div.bar a{
     margin: 14px;
+    text-decoration: none;
 }
 
 .imgnav{
@@ -81,6 +82,7 @@ div[class^="col-"]{
 
 div.col-1-2{
     margin-top: 30px;
+    text-align: center;
 }
 
 
@@ -126,11 +128,5 @@ div.bottom a:hover, nav a:active{
 aside h1{
     text-align: center;
     font-size: 2em;
-
-}
-
-/*Body Styles*/
-body {
-	
 }
 
