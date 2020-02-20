@@ -1,14 +1,329 @@
 @charset "utf-8";
 
+
+/* html stuff */
 html{
-    background-color: black;
-    width: 100%;
+    background-color: white;
+    color: aliceblue;
+    margin-top: 107px;
 }
 
-body{
-    background-color: white;
+/* nav bar and malkes the nav follow the user  */
+div.bar{
+    font-family: 'Aldrich', sans-serif;
+    border: 3.5px outset;
+    margin: 10px;
+    padding: 5px;
+    word-spacing: 80px;
+    font-size: 20px;
+    position: fixed; 
+    top: 0;   
+    background-color: black;
+}
+div.bar a{
+    margin: 14px;
+}
+
+.imgnav{
+    height: 65px;
+    width: 70px;
+}
+
+div.bar a:visited, nav a:link{
+    color: 	#f8f8ff;
+}
+div.bar a:hover, nav a:active{
+    color: gold;
+}
+
+
+
+article#welcome{
     width: 90%;
+    /* display: block; */
+    background-color: silver;
+    color: black;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px;
 }
+
+article h1{
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+article h3{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+article p{
+    font-size: 1.25em;
+    text-align: center;
+    margin: 0;
+}
+
+article.shop{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+    border: 2px gold solid;
+    color: black;
+}
+
+
+/* defines where and how to use the rows and their sizes so each one is different */
+div.row{
+    clear: both;
+    /* margin: 0px 10px; */
+}
+div.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+div[class^="col-"]{
+    float: left;
+}
+
+div.col-1-2{
+    margin-top: 30px;
+}
+
+
+div.col-1-1{width: 100%}
+div.col-1-2{width: 50%}
+div.col-1-3{width: 33%}
+
+
+
+/* ------------------- */
+/* footer styles */
+
+
+footer{
+    width: 100%;
+    background-color: black;
+}
+ 
+footer p{
+    color: whitesmoke;
+    font-size: 1.25em;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0px;
+}
+ 
+/* div.bottom {
+    background-color: rgb(10, 10, 10);
+    padding: 8px;
+    font-size: 1em;
+    line-height: 1.8em;
+    color: white;
+    text-align: center;
+    word-spacing: 30px;
+    width: 100%;
+}
+div.bottom a:visited, nav a:link{
+    color: 	#f8f8ff;
+}
+div.bottom a:hover, nav a:active{
+    color: gold;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************
+html{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+}
+body{
+    width: 90%;
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 111px;
+}
+
+/* nav bar and malkes the nav follow the user  */
+/*******************************************
+
+div.bar{
+    font-family: 'Aldrich', sans-serif;
+    border: 3.5px outset;
+    margin: 10px;
+    padding: 5px;
+    word-spacing: 80px;
+    font-size: 20px;
+    position: fixed; 
+    top: 0;   
+    background-color: black;
+}
+div.bar a{
+    margin: 14px;
+}
+
+.imgnav{
+    height: 65px;
+    width: 70px;
+}
+
+div.bar a:visited, nav a:link{
+    color: 	#f8f8ff;
+}
+div.bar a:hover, nav a:active{
+    color: gold;
+}
+
+
+/* to align pics where they go to */
+/* ------------------------------------------------ */
+
+
+/* aligns the article on where to go */
+/**********************************
+
+article h1{
+    text-align: center;
+    font-size: 42px;
+}
+
+/* the caption of wwhat each photo is and their aligment along with font size */
+/***************************************
+figcaption{
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+}
+
+figure img{
+    width:50%;
+    height: 50%;
+    align-content: center;
+}
+
+figure{
+    margin:10px;
+   
+}
+
+/* defines where and how to use the rows and their sizes so each one is different */
+/************************************
+div.row{
+    clear: both;
+    margin: 0px 10px;
+}
+div.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+div[class^="col-"]{
+    float: left;
+}
+
+div.col-1-2{
+    margin-top: 30px;
+}
+
+
+div.col-1-1{width: 100%}
+div.col-1-2{width: 50%}
+
+
+
+/* ------------------- */
+/* footer styles */
+
+/* 
+footer{
+    width: 100%;
+}
+ 
+footer p{
+    color: whitesmoke;
+    font-size: 1em;
+    text-align: center;
+    background-color: black;
+    margin: 0px;
+    padding: 10px 0px;
+}
+ 
+div.bottom {
+    background-color: rgb(10, 10, 10);
+    padding: 8px;
+    font-size: 1em;
+    line-height: 1.8em;
+    color: white;
+    text-align: center;
+    word-spacing: 30px;
+}
+div.bottom a:visited, nav a:link{
+    color: 	#f8f8ff;
+}
+div.bottom a:hover, nav a:active{
+    color: gold;
+}
+*/
 
