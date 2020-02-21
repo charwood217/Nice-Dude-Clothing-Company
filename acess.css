@@ -71,7 +71,7 @@ figure{
 
 
 .zoom{
-    transition: transform .2s;
+    transition: .2s;
 }
   
 .zoom:hover{

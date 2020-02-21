@@ -59,8 +59,12 @@ article{
     font-family: 'Aldrich', sans-serif;
 }
 
-article h1, h2, h3{
+article h2, h3, h4{
     font-size: 30px;
+}
+
+article h1{
+    margin: 80px;
 }
 
 article p{
@@ -79,7 +83,9 @@ article p{
 .drdan{
     border: 3.5px outset;
 }
-
+.boxer{
+    border: 3.5px outset;
+}
 
 
 /* ------------------- */
