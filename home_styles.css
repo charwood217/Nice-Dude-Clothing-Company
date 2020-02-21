@@ -21,6 +21,10 @@ body{
     margin-right: auto;
 }
 
+span{
+    color: gold;
+}
+
 /* nav bar and malkes the nav follow the user  */
 div.bar{
     font-family: 'Aldrich', sans-serif;
@@ -64,6 +68,10 @@ article#welcome{
     font-family: 'Aldrich';
 }
 
+article#welcome p{
+    font-size: 1em;
+}
+
 article h1{
     text-align: center;
     font-size: 2em;
@@ -94,15 +102,30 @@ article.shop{
     text-align: center;
     border: 2px gold solid;
     color: white;
+    /* height: 150px; */
 }
 
 article ul{
     padding: 0;
     color: gold;
+    margin: 0;
 }
 
 article li{
     list-style-type: none;
+}
+article.shopmw{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+    border: 2px gold solid;
+    color: white;
+    height: 349px;
+}
+
+img#pc{
+    border-radius: 10px;
 }
 
 
@@ -149,6 +172,7 @@ footer{
     width: 100%;
     background-color: black;
     border: 5px gold double;
+    margin-top: 15px;
 }
  
 footer p{
