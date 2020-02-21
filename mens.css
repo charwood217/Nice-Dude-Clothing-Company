@@ -57,12 +57,21 @@ figcaption{
 figure img{
     width:50%;
     height: 50%;
-    align-content: center;
+    text-align: center;
+    border:  grey 5px outset;
 }
 
 figure{
     margin:10px;
    
+}
+
+.zoom{
+    transition: transform .2s;
+}
+  
+.zoom:hover{
+    transform: scale(1.1); 
 }
 
 /* defines where and how to use the rows and their sizes so each one is different */
