@@ -69,6 +69,15 @@ figure{
     margin:10px;
 }
 
+
+.zoom{
+    transition: transform .2s;
+}
+  
+.zoom:hover{
+    transform: scale(1.5); 
+}
+
 /* defines where and how to use the rows and their sizes so each one is different */
 div.row{
     clear: both;
