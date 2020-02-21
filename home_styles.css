@@ -12,7 +12,7 @@ html{
     background-size: cover;
     color: black;
     margin-top: 107px;
-    /* font-family: 'Aldrich'; */
+    font-family: 'Aldrich';
 }
 
 body{
@@ -58,8 +58,8 @@ div.bar a:hover, nav a:active{
 
 article#welcome{
     display: block;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
@@ -92,16 +92,16 @@ article h3{
 article p{
     font-size: 1.25em;
     text-align: center;
-    margin: 0;
+    margin: 5px;
 }
 
 article.shop{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
     text-align: center;
     border: 2px gold solid;
-    color: white;
+    color: black;
     /* height: 150px; */
 }
 
@@ -117,15 +117,21 @@ article li{
 article.shopmw{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
     text-align: center;
     border: 2px gold solid;
-    color: white;
+    color: black;
     height: 349px;
 }
 
-img#pc{
+img.br{
     border-radius: 10px;
+}
+
+img#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
