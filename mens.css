@@ -54,6 +54,10 @@ figcaption{
     font-family: 'Aldrich', sans-serif;
 }
 
+span{
+    color: gold;
+}
+
 figure img{
     width:50%;
     height: 50%;
