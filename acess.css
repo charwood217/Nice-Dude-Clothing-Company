@@ -69,6 +69,10 @@ figure{
     margin:10px;
 }
 
+span{
+    color: gold;
+}
+
 
 .zoom{
     transition: .2s;
