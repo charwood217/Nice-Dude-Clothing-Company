@@ -1,145 +1,197 @@
-@charset "UTF-8";
-
-
+@charset "utf-8";
+ 
+ 
+ 
+ 
+ 
+ 
 /* html stuff */
 html{
-    background-color: black;
-    color: aliceblue;
-    margin-top: 181px;
+   background-image: url("goldback.png");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   color: aliceblue;
 }
-
+ 
+body{
+   width: 85%;
+   background-color: black;
+   margin-left: auto;
+   margin-right: auto;
+}
+ 
+span{
+   color: goldenrod;
+}
 /* nav bar and malkes the nav follow the user  */
 div.bar{
-    font-family: 'Aldrich', sans-serif;
-    border: 3.5px outset;
-    margin: 10px;
-    padding: 5px;
-    word-spacing: 80px;
-    font-size: 20px;
-    position: fixed; 
-    top: 0;   
-    background-color: black;
+   font-family: 'Aldrich', sans-serif;
+   border: 5px outset;
+   margin-left: auto;
+   margin-right: none;
+   padding-top: 10px;
+   padding-bottom: 15px;
+   word-spacing: 65px;
+   font-size: 20px;
+   position: fixed;
+   top: 0;  
+   background-color: black;
+   width: 85%;
+   box-sizing: border-box;
+   /* display: block; */
 }
 div.bar a{
-    margin: 14px;
-    text-decoration: none;
+   text-decoration: none;
 }
-
+ 
 .imgnav{
-    height: 65px;
-    width: 70px;
+   height: 80px;
+   width: 90px;
 }
-
+ 
 div.bar a:visited, nav a:link{
-    color: 	#f8f8ff;
+   color:  #f8f8ff;
 }
 div.bar a:hover, nav a:active{
-    color: gold;
+   color: gold;
 }
-
-
+ 
+ 
 /* to align pics where they go to */
 /* ------------------------------------------------ */
-
-
+ 
+ 
 /* aligns the article on where to go */
-article h1{
-    text-align: center;
-    font-size: 42px;
+article{
+   width: 100%;
+   font-size: 15px;
 }
-
+ 
+article h1{
+   text-align: center;
+   font-size: 42px;
+   margin-top: 136px;
+   background-color: goldenrod;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   border-radius: 20px;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+ 
 /* the caption of wwhat each photo is and their aligment along with font size */
 figcaption{
-    text-align: center;
-    font-family: 'Aldrich', sans-serif;
+   text-align: center;
+   font-family: 'Aldrich', sans-serif;
 }
-
-span{
-    color: gold;
-}
-
+ 
 figure img{
-    width:50%;
-    height: 50%;
-    text-align: center;
-    border:  grey 5px outset;
+   width:50%;
+   height: 50%;
+   text-align: center;
+   border:  grey 5px outset;
 }
-
+ 
 figure{
-    margin:10px;
-   
+   margin:10px;
 }
-
+ 
+ 
 .zoom{
-    transition: transform .2s;
+   transition: .2s;
 }
-  
-.zoom:hover{
-    transform: scale(1.1); 
+ .zoom:hover{
+   transform: scale(1.5);
 }
-
+ 
 /* defines where and how to use the rows and their sizes so each one is different */
 div.row{
-    clear: both;
-    margin: 0px 10px;
+   clear: both;
+  
 }
 div.row::after{
-    clear: both;
-    content: "";
-    display: table;
+   clear: both;
+   content: "";
+   display: table;
 }
-
+ 
 div[class^="col-"]{
-    float: left;
+   float: left;
 }
-
+ 
 div.col-1-2{
-    margin-top: 30px;
-    text-align: center;
+   text-align: center;
 }
-
-
+ 
+ 
 div.col-1-1{width: 100%}
 div.col-1-2{width: 50%}
-
-
-
+div.col-1-9{width: 12%}
+div.col-8-9{
+   width: 88%;
+   margin-top: 78px;
+   margin-bottom: none;
+}
+ 
+ 
+ 
 /* ------------------- */
 /* footer styles */
-
-
+ 
+ 
 footer{
-    width: 100%;
+   width: 100%;
 }
- 
 footer p{
-    color: whitesmoke;
-    font-size: 1em;
-    text-align: center;
-    background-color: black;
-    margin: 0px;
-    padding: 10px 0px;
+   color: whitesmoke;
+   font-size: 1em;
+   text-align: center;
+   background-color: black;
+   margin: 0px;
+   padding: 10px 0px;
 }
- 
 div.bottom {
-    background-color: rgb(10, 10, 10);
-    padding: 8px;
-    font-size: 1em;
-    line-height: 1.8em;
-    color: white;
-    text-align: center;
-    word-spacing: 30px;
+   background-color: rgb(10, 10, 10);
+   padding: 8px;
+   font-size: 1em;
+   line-height: 1.8em;
+   color: white;
+   text-align: center;
+   word-spacing: 30px;
 }
 div.bottom a:visited, nav a:link{
-    color: 	#f8f8ff;
+   color:  #f8f8ff;
 }
 div.bottom a:hover, nav a:active{
-    color: gold;
+   color: gold;
 }
+ 
+/* Footer Styles */
+footer{
+   width: 99.2%;
+   background-color: black;
+   border: 5px goldenrod double;
+   margin-top: 20px;
+   display: block;
+ 
+}
+footer p{
+   color: whitesmoke;
+   font-size: 1.25em;
+   text-align: center;
+   margin: 0px;
+   padding: 15px 0px;
+}
+ 
 
-/*Aside styles*/
-aside h1{
-    text-align: center;
-    font-size: 2em;
-}
+
+
+
+
+
+
+
+
 
