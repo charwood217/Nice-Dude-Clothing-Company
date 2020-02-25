@@ -59,6 +59,56 @@ div.bar a:hover, nav a:active{
 }
 
 
+/* for the buttons above the H1 */
+/* ------------------------------------------------- */
+button.theme1{
+    margin-top: 80px;
+    border: outset;
+    text-align: center;
+    background: rgb(119, 114, 114);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Aldrich', sans-serif;
+    transition-duration: 0.4s;
+}
+
+button.theme2{
+    margin-top: 80px;
+    border: outset;
+    text-align: center;
+    background: rgb(119, 114, 114);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Aldrich', sans-serif;
+    transition-duration: 0.4s;
+}
+  
+button.theme1:hover{
+    background: black;
+    color: white;
+}
+button.theme2:hover{
+    background: white;
+    color: black;
+}
+
+#themenav{
+    text-align: center;
+    margin-top: 115px;
+}
+
+
+
+
+
 /* to align pics where they go to */
 /* ------------------------------------------------ */
 
