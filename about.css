@@ -4,18 +4,8 @@
 
 
 
-article h1{
-    margin-top: 90px;
-    text-align: center;
-    font-size: 42px;
-    background-color: goldenrod;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    border-radius: 20px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
- 
+
+/* html stuff */
 html{
     background-image: url("goldback.png");
     background-repeat: no-repeat;
@@ -24,7 +14,7 @@ html{
     background-size: cover;
     color: aliceblue;
 }
-  
+
 body{
     width: 85%;
     background-color: black;
@@ -32,28 +22,33 @@ body{
     margin-right: auto;
 }
 
+span{
+    color: goldenrod;
+}
 /* nav bar and malkes the nav follow the user  */
 div.bar{
     font-family: 'Aldrich', sans-serif;
     border: 5px outset;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: none;
     padding-top: 10px;
     padding-bottom: 15px;
-    word-spacing: 45px;
+    word-spacing: 65px;
     font-size: 20px;
     position: fixed; 
     top: 0;   
     background-color: black;
-    width: 85%
+    width: 85%;
+    box-sizing: border-box;
+    /* display: block; */
 }
 div.bar a{
     text-decoration: none;
 }
 
 .imgnav{
-    height: 65px;
-    width: 70px;
+    height: 80px;
+    width: 90px;
 }
 
 div.bar a:visited, nav a:link{
@@ -120,6 +115,116 @@ button.theme2:hover{
 
 /* aligns the article on where to go */
 article{
+    width: 100%;
+    font-size: 15px;
+}
+
+article h1{
+    text-align: center;
+    font-size: 42px;
+    margin-top: 136px;
+    background-color: goldenrod;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* the caption of wwhat each photo is and their aligment along with font size */
+figcaption{
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+}
+
+figure img{
+    width:50%;
+    height: 50%;
+    text-align: center;
+    border:  grey 5px outset;
+}
+
+figure{
+    margin:10px;
+}
+
+
+.zoom{
+    transition: .2s;
+}
+  
+.zoom:hover{
+    transform: scale(1.5); 
+}
+
+/* defines where and how to use the rows and their sizes so each one is different */
+div.row{
+    clear: both;
+    
+}
+div.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+div[class^="col-"]{
+    float: left;
+}
+
+div.col-1-2{
+    text-align: center;
+}
+
+
+div.col-1-1{width: 100%}
+div.col-1-2{width: 50%}
+div.col-1-9{width: 12%}
+div.col-8-9{
+    width: 88%;
+    margin-top: 78px;
+    margin-bottom: none;
+}
+
+
+
+/* ------------------- */
+/* footer styles */
+
+
+footer{
+    width: 100%;
+}
+ 
+footer p{
+    color: whitesmoke;
+    font-size: 1em;
+    text-align: center;
+    background-color: black;
+    margin: 0px;
+    padding: 10px 0px;
+}
+ 
+/* Footer Styles */
+footer{
+    width: 99.2%;
+    background-color: black;
+    border: 5px goldenrod double;
+    margin-top: 20px;
+    display: block;
+
+}
+ 
+footer p{
+    color: whitesmoke;
+    font-size: 1.25em;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0px;
+}
+
+/* aligns the article on where to go */
+article{
     text-align: center;
     font-family: 'Aldrich', sans-serif;
 }
@@ -153,16 +258,3 @@ article p{
 /* footer styles */
 
 
-footer{
-    width: 100%;
-}
- 
-footer p{
-    color: whitesmoke;
-    font-size: 1em;
-    text-align: center;
-    background-color: black;
-    margin: 0px;
-    padding: 10px 0px;
-}
- 
