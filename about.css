@@ -166,20 +166,3 @@ footer p{
     padding: 10px 0px;
 }
  
-div.bottom {
-    background-color: rgb(10, 10, 10);
-    padding: 10px;
-    font-size: 20px;
-    line-height: 1.8em;
-    color: white;
-    text-align: center;
-    word-spacing: 30px;
-    margin: 30px;
-}
-div.bottom a:visited, nav a:link{
-    color: 	#f8f8ff;
-}
-div.bottom a:hover, nav a:active{
-    color: gold;
-}
-
