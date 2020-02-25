@@ -88,8 +88,8 @@ figcaption{
 }
  
 figure img{
-   width:50%;
-   height: 50%;
+   width:345px;
+   height: 348px;
    text-align: center;
    border:  grey 5px outset;
 }
@@ -98,13 +98,13 @@ figure{
    margin:10px;
 }
  
- 
 .zoom{
    transition: .2s;
 }
  .zoom:hover{
    transform: scale(1.5);
 }
+
  
 /* defines where and how to use the rows and their sizes so each one is different */
 div.row{
