@@ -17,9 +17,13 @@ html{
  
 body{
    width: 85%;
-   background-color: black;
+   background-color: silver;
    margin-left: auto;
    margin-right: auto;
+}
+
+figcaption{
+    color: black;
 }
  
 span{
@@ -88,8 +92,8 @@ figcaption{
 }
  
 figure img{
-   width:345px;
-   height: 352px;
+   width:50%;
+   height: 50%;
    text-align: center;
    border:  grey 5px outset;
 }
@@ -98,13 +102,13 @@ figure{
    margin:10px;
 }
  
+ 
 .zoom{
    transition: .2s;
 }
  .zoom:hover{
    transform: scale(1.5);
 }
-
  
 /* defines where and how to use the rows and their sizes so each one is different */
 div.row{
@@ -128,9 +132,9 @@ div.col-1-2{
  
 div.col-1-1{width: 100%}
 div.col-1-2{width: 50%}
-div.col-1-10{width: 10%}
-div.col-9-10{
-   width: 90%;
+div.col-1-9{width: 12%}
+div.col-8-9{
+   width: 88%;
    margin-top: 78px;
    margin-bottom: none;
 }
@@ -184,59 +188,87 @@ footer p{
    margin: 0px;
    padding: 15px 0px;
 }
+
+
 /* for the buttons above the H1 */
 /* ------------------------------------------------- */
 button.button1{
-   margin-top: 80px;
-   border: outset;
-   text-align: center;
-   background: rgb(119, 114, 114);
-   color: black;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   font-family: 'Aldrich', sans-serif;
-   transition-duration: 0.4s;
+    margin-top: 80px;
+    border: outset;
+    text-align: center;
+    background: rgb(119, 114, 114);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Aldrich', sans-serif;
+    transition-duration: 0.4s;
 }
 
 button.button2{
-   margin-top: 80px;
-   border: outset;
-   text-align: center;
-   background: rgb(119, 114, 114);
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   font-family: 'Aldrich', sans-serif;
-   transition-duration: 0.4s;
+    margin-top: 80px;
+    border: outset;
+    text-align: center;
+    background: rgb(119, 114, 114);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Aldrich', sans-serif;
+    transition-duration: 0.4s;
 }
- 
+button.button3{
+    margin-top: 80px;
+    border: outset;
+    text-align: center;
+    background: rgb(119, 114, 114);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Aldrich', sans-serif;
+    transition-duration: 0.4s;
+}
+button.button4{
+    margin-top: 80px;
+    border: outset;
+    text-align: center;
+    background: rgb(119, 114, 114);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Aldrich', sans-serif;
+    transition-duration: 0.4s;
+}
+  
 button.button1:hover{
-   background: black;
-   color: white;
+    background: black;
+    color: white;
 }
 button.button2:hover{
-   background: white;
-   color: black;
+    background: white;
+    color: black;
+}
+button.button3:hover{
+    background: silver;
+    color: white;
+}
+button.button4:hover{
+    background: gold;
+    color: white;
 }
 
 #themenav{
-   text-align: center;
-   margin-top: 100px;
+    text-align: center;
+    margin-top: 100px;
 }
-
-
-
-
-
-
-
-
-
-
 
