@@ -17,9 +17,13 @@ html{
  
 body{
    width: 85%;
-   background-color: black;
+   background-color: silver;
    margin-left: auto;
    margin-right: auto;
+}
+
+figcaption{
+    color: black;
 }
  
 span{

@@ -17,9 +17,13 @@ html{
  
 body{
    width: 85%;
-   background-color: black;
+   background-color: white;
    margin-left: auto;
    margin-right: auto;
+}
+
+figcaption{
+    color: black;
 }
  
 span{
@@ -255,11 +259,11 @@ button.button2:hover{
     color: black;
 }
 button.button3:hover{
-    background: silver;
+    background: black;
     color: white;
 }
 button.button4:hover{
-    background: gold;
+    background: black;
     color: white;
 }
 

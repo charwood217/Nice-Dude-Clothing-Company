@@ -17,13 +17,17 @@ html{
  
 body{
    width: 85%;
-   background-color: black;
+   background-color: goldenrod;
    margin-left: auto;
    margin-right: auto;
 }
+
+figcaption{
+    color: black;
+}
  
 span{
-   color: goldenrod;
+   color: black;
 }
 /* nav bar and malkes the nav follow the user  */
 div.bar{
@@ -267,4 +271,3 @@ button.button4:hover{
     text-align: center;
     margin-top: 100px;
 }
-
