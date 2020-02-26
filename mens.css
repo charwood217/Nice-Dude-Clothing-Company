@@ -128,9 +128,9 @@ div.col-1-2{
  
 div.col-1-1{width: 100%}
 div.col-1-2{width: 50%}
-div.col-1-9{width: 12%}
-div.col-8-9{
-   width: 88%;
+div.col-1-10{width: 10%}
+div.col-9-10{
+   width: 90%;
    margin-top: 78px;
    margin-bottom: none;
 }
@@ -184,7 +184,52 @@ footer p{
    margin: 0px;
    padding: 15px 0px;
 }
+/* for the buttons above the H1 */
+/* ------------------------------------------------- */
+button.button1{
+   margin-top: 80px;
+   border: outset;
+   text-align: center;
+   background: rgb(119, 114, 114);
+   color: black;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   font-family: 'Aldrich', sans-serif;
+   transition-duration: 0.4s;
+}
+
+button.button2{
+   margin-top: 80px;
+   border: outset;
+   text-align: center;
+   background: rgb(119, 114, 114);
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   font-family: 'Aldrich', sans-serif;
+   transition-duration: 0.4s;
+}
  
+button.button1:hover{
+   background: black;
+   color: white;
+}
+button.button2:hover{
+   background: white;
+   color: black;
+}
+
+#themenav{
+   text-align: center;
+   margin-top: 100px;
+}
+
 
 
 
