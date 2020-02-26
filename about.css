@@ -17,7 +17,8 @@ html{
 
 body{
     width: 85%;
-    background-color: lemonchiffon;
+    background-color: #f8f9d2;
+    background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
     margin-left: auto;
     margin-right: auto;
 }
@@ -59,57 +60,8 @@ div.bar a:hover, nav a:active{
 }
 
 
-/* for the buttons above the H1 */
-/* ------------------------------------------------- */
-button.theme1{
-    margin-top: 80px;
-    border: outset;
-    text-align: center;
-    background: rgb(119, 114, 114);
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Aldrich', sans-serif;
-    transition-duration: 0.4s;
-}
-
-button.theme2{
-    margin-top: 80px;
-    border: outset;
-    text-align: center;
-    background: rgb(119, 114, 114);
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Aldrich', sans-serif;
-    transition-duration: 0.4s;
-}
-  
-button.theme1:hover{
-    background: black;
-    color: white;
-}
-button.theme2:hover{
-    background: white;
-    color: black;
-}
-
-#themenav{
-    text-align: center;
-    margin-top: 115px;
-}
 
 
-
-
-
-/* to align pics where they go to */
 /* ------------------------------------------------ */
 
 
@@ -117,12 +69,13 @@ button.theme2:hover{
 article{
     width: 100%;
     font-size: 15px;
+     text-align: center;
+    font-family: 'Aldrich', sans-serif;
 }
 
 article h1{
     text-align: center;
     font-size: 42px;
-    margin-top: 136px;
     background-color: goldenrod;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     border-radius: 20px;
@@ -215,19 +168,8 @@ footer{
 
 }
  
-footer p{
-    color: whitesmoke;
-    font-size: 1.25em;
-    text-align: center;
-    margin: 0px;
-    padding: 15px 0px;
-}
 
 /* aligns the article on where to go */
-article{
-    text-align: center;
-    font-family: 'Aldrich', sans-serif;
-}
 
 article h2, h3, h4{
     font-size: 30px;
@@ -258,79 +200,12 @@ article p{
 }
 
 
-/* ------------------- */
-/* footer styles */
-
-
-/* to align pics where they go to */
-/* ------------------------------------------------ */
-
-
 /* aligns the article on where to go */
 article h1{
     text-align: center;
     font-size: 42px;
 }
 
-/* the caption of wwhat each photo is and their aligment along with font size */
-figcaption{
-    text-align: center;
-    font-family: 'Aldrich', sans-serif;
-}
-
-figure img{
-    width:50%;
-    height: 50%;
-    text-align: center;
-    border:  grey 5px outset;
-}
-
-figure{
-    margin:10px;
-   
-}
-
-.zoom{
-    transition: transform .2s;
-}
-  
-.zoom:hover{
-    transform: scale(1.1); 
-}
-
-
-/* ------------------- */
-/* footer styles */
-
-
-footer{
-    width: 100%;
-}
- 
-footer p{
-    color: whitesmoke;
-    font-size: 1em;
-    text-align: center;
-    background-color: black;
-    margin: 0px;
-    padding: 10px 0px;
-}
- 
-div.bottom {
-    background-color: rgb(10, 10, 10);
-    padding: 8px;
-    font-size: 1em;
-    line-height: 1.8em;
-    color: white;
-    text-align: center;
-    word-spacing: 30px;
-}
-div.bottom a:visited, nav a:link{
-    color: 	#f8f8ff;
-}
-div.bottom a:hover, nav a:active{
-    color: gold;
-}
 
 /*Aside styles*/
 aside h1{
@@ -345,7 +220,7 @@ button.button1{
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
-    color: silver;
+    color: lemonchiffon;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -360,7 +235,7 @@ button.button2{
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
-    color: white;
+    color: lightblue;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -374,7 +249,7 @@ button.button3{
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
-    color: silver;
+    color: lightcoral;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -388,7 +263,7 @@ button.button4{
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
-    color: goldenrod;
+    color: lightgreen;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -399,20 +274,24 @@ button.button4{
 }
   
 button.button1:hover{
-    background: lemonchiffon;
+    background-color: #f8f9d2;
+    background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
     color: black;
 }
 button.button2:hover{
-    background: lightblue;
+    background-color: #aecad6;
+    background-image: linear-gradient(315deg, #aecad6 0%, #b8d3fe 74%);
     color: black;
 }
 button.button3:hover{
-    background: lightcoral;
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
     color: white;
 }
 button.button4:hover{
-    background: lightgoldenrodyellow;
-    color: white;
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    color: black;
 }
 
 #themenav{

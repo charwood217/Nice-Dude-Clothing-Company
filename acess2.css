@@ -17,13 +17,10 @@ html{
  
 body{
    width: 85%;
-   background-color: silver;
+   background-color: #f5f5f1;
+   background-image: linear-gradient(315deg, #f5f5f1 0%, #e50914 74%);
    margin-left: auto;
    margin-right: auto;
-}
-
-figcaption{
-    color: black;
 }
  
 span{
@@ -37,7 +34,7 @@ div.bar{
    margin-right: none;
    padding-top: 10px;
    padding-bottom: 15px;
-   word-spacing: 65px;
+   word-spacing: 50px;
    font-size: 20px;
    position: fixed;
    top: 0;  
@@ -76,7 +73,6 @@ article{
 article h1{
    text-align: center;
    font-size: 42px;
-   margin-top: 136px;
    background-color: goldenrod;
    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
    border-radius: 20px;
@@ -212,7 +208,7 @@ button.button2{
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -226,7 +222,7 @@ button.button3{
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
-    color: silver;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -240,7 +236,7 @@ button.button4{
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
-    color: goldenrod;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -251,24 +247,27 @@ button.button4{
 }
   
 button.button1:hover{
-    background: black;
-    color: white;
+   background-color: #fe7bb0;
+   background-image: linear-gradient(315deg, #fe7bb0 0%, #ff748b 74%);
+   color: gold;
 }
 button.button2:hover{
-    background: white;
-    color: black;
+   background-color: #f5f5f1;
+   background-image: linear-gradient(315deg, #f5f5f1 0%, #e50914 74%);
+   color: white;
 }
 button.button3:hover{
-    background: silver;
-    color: white;
+   background-color: #7ee8fa;
+   background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+   color: white;
 }
 button.button4:hover{
-    background: gold;
-    color: white;
+   background-color: #a4508b;
+   background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+   color: gold;
 }
 
 #themenav{
     text-align: center;
     margin-top: 100px;
 }
-
