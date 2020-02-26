@@ -89,8 +89,8 @@ span{
 }
 
 figure img{
-    width: 345px;
-   height: 352px;
+    width: 50%;
+    height: 50%;
     text-align: center;
     border:  grey 5px outset;
 }
@@ -172,6 +172,88 @@ div.bottom a:hover, nav a:active{
 aside h1{
     text-align: center;
     font-size: 2em;
+}
+
+/* for the buttons above the H1 */
+/* ------------------------------------------------- */
+button.button1{
+    margin-top: 80px;
+    border: outset;
+    text-align: center;
+    background: rgb(119, 114, 114);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Aldrich', sans-serif;
+    transition-duration: 0.4s;
+}
+
+button.button2{
+    margin-top: 80px;
+    border: outset;
+    text-align: center;
+    background: rgb(119, 114, 114);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Aldrich', sans-serif;
+    transition-duration: 0.4s;
+}
+button.button3{
+    margin-top: 80px;
+    border: outset;
+    text-align: center;
+    background: rgb(119, 114, 114);
+    color: silver;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Aldrich', sans-serif;
+    transition-duration: 0.4s;
+}
+button.button4{
+    margin-top: 80px;
+    border: outset;
+    text-align: center;
+    background: rgb(119, 114, 114);
+    color: goldenrod;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Aldrich', sans-serif;
+    transition-duration: 0.4s;
+}
+  
+button.button1:hover{
+    background: black;
+    color: white;
+}
+button.button2:hover{
+    background: white;
+    color: black;
+}
+button.button3:hover{
+    background: silver;
+    color: white;
+}
+button.button4:hover{
+    background: gold;
+    color: white;
+}
+
+#themenav{
+    text-align: center;
+    margin-top: 100px;
 }
 
 /* for the buttons above the H1 */
