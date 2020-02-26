@@ -13,8 +13,7 @@ Author: Christian Harwood
 /* latin */
 
 html{
-    background-color: #485461;
-    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    background: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -68,8 +67,8 @@ div.bar a:hover, nav a:active{
 
 article#welcome{
     display: block;
-    background-color: black;
-    color: white;
+    background-color: silver;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
@@ -416,7 +415,7 @@ button.button4{
   
 button.button1:hover{
     background: black;
-    color: white;
+    color: gold;
 }
 button.button2:hover{
     background: white;

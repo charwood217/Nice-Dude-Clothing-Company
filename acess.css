@@ -17,8 +17,9 @@ html{
  
 body{
    width: 85%;
-   background-color: #fe7bb0;
-   background-image: linear-gradient(315deg, #fe7bb0 0%, #ff748b 74%);
+   background-color: black;
+   /* background-color: #fe7bb0;
+   background-image: linear-gradient(315deg, #fe7bb0 0%, #ff748b 74%); */
    margin-left: auto;
    margin-right: auto;
 }
@@ -247,8 +248,8 @@ button.button4{
 }
   
 button.button1:hover{
-    background-color: #fe7bb0;
-    background-image: linear-gradient(315deg, #fe7bb0 0%, #ff748b 74%);
+    background-color: gold;
+    background-image: linear-gradient(315deg, black 0%, black 74%);
     color: gold;
 }
 button.button2:hover{

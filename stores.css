@@ -18,7 +18,6 @@ html{
 body{
     width: 85%;
     background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
     margin-left: auto;
     margin-right: auto;
 }
@@ -254,9 +253,9 @@ button.button4{
 }
   
 button.button1:hover{
-    background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
-    color: white;
+    background-color: gold;
+    background-image: linear-gradient(315deg, #000000 0%, black 74%);
+    color: gold;
 }
 button.button2:hover{
     background-color: #08e1ae;
