@@ -1,5 +1,13 @@
 @charset "utf-8";
-
+/*
+Author: Christian Harwood
+    Date: 2/26/20
+    Project Manager: Christian Harwood
+    Web Developer: Christian Harwood
+    Web Designer: Brandon Santizo
+    Content Designer: Domonic Torres
+    Programmer: Daniel Garcia
+*/
 
 /* html stuff */
 /* latin */
@@ -285,7 +293,6 @@ figure{
 /* defines where and how to use the rows and their sizes so each one is different */
 div.row{
     clear: both;
-    margin: 0px 10px;
 }
 div.row::after{
     clear: both;
@@ -350,7 +357,7 @@ aside h1{
 /* for the buttons above the H1 */
 /* ------------------------------------------------- */
 button.button1{
-    margin-top: 80px;
+    margin-top: 20px;
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
@@ -365,7 +372,7 @@ button.button1{
 }
 
 button.button2{
-    margin-top: 80px;
+    margin-top: 20px;
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
@@ -426,7 +433,7 @@ button.button4:hover{
 
 #themenav{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 

@@ -1,6 +1,14 @@
 @charset "utf-8";
-
-
+/*
+    Author: Christian Harwood
+    Date: 2/26/20
+    Checked By: Brandon Santizo
+    Project Manager: Christian Harwood
+    Web Developer: Christian Harwood
+    Web Designer: Brandon Santizo
+    Content Designer: Domonic Torres
+    Programmer: Daniel Garcia
+*/
 
 
 
@@ -30,7 +38,7 @@ div.bar{
     font-family: 'Aldrich', sans-serif;
     border: 5px outset;
     margin-left: auto;
-    margin-right: none;
+    margin-right: auto;
     padding-top: 10px;
     padding-bottom: 15px;
     word-spacing: 65px;
@@ -72,7 +80,6 @@ article{
 article h1{
     text-align: center;
     font-size: 42px;
-    margin-top: 136px;
     background-color: goldenrod;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     border-radius: 20px;
@@ -178,7 +185,7 @@ footer p{
 
 
 /* aligns the article on where to go */
-article h1{
+/* article h1{
     text-align: center;
     font-size: 42px;
 }
@@ -212,7 +219,6 @@ figure{
 /* defines where and how to use the rows and their sizes so each one is different */
 div.row{
     clear: both;
-    margin: 0px 10px;
 }
 div.row::after{
     clear: both;
@@ -251,28 +257,12 @@ footer p{
     margin: 0px;
     padding: 10px 0px;
 }
- 
-div.bottom {
-    background-color: rgb(10, 10, 10);
-    padding: 8px;
-    font-size: 1em;
-    line-height: 1.8em;
-    color: white;
-    text-align: center;
-    word-spacing: 30px;
-}
-div.bottom a:visited, nav a:link{
-    color: 	#f8f8ff;
-}
-div.bottom a:hover, nav a:active{
-    color: gold;
-}
 
 /*Aside styles*/
 aside h1{
     text-align: center;
     font-size: 2em;
-}
+} */
 
 /* for the buttons above the H1 */
 /* ------------------------------------------------- */
