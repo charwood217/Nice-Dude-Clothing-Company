@@ -17,7 +17,8 @@ html{
  
 body{
    width: 85%;
-   background-color: black;
+   background-color: #e84393;
+   background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
    margin-left: auto;
    margin-right: auto;
 }
@@ -244,19 +245,23 @@ button.button4{
 }
  
 button.button1:hover{
-   background: black;
+   background-color: #e84393;
+   background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
    color: white;
 }
 button.button2:hover{
-   background: white;
+   background-color: #44b09e;
+   background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%);
    color: black;
 }
 button.button3:hover{
-   background: silver;
+   background-color: #c73e1d;
+   background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
    color: white;
 }
 button.button4:hover{
-   background: gold;
+   background-color: #182b3a;
+   background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
    color: white;
 }
 

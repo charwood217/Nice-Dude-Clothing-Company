@@ -17,7 +17,9 @@ html{
  
 body{
    width: 85%;
-   background-color: goldenrod;
+   background-color: #182b3a;
+   background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+
    margin-left: auto;
    margin-right: auto;
 }
@@ -250,20 +252,24 @@ button.button4{
 }
   
 button.button1:hover{
-    background: black;
-    color: white;
+   background-color: #e84393;
+   background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+   color: white;
 }
 button.button2:hover{
-    background: white;
-    color: black;
+   background-color: #44b09e;
+   background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%);
+   color: black;
 }
 button.button3:hover{
-    background: silver;
-    color: white;
+   background-color: #c73e1d;
+   background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+   color: white;
 }
 button.button4:hover{
-    background: gold;
-    color: white;
+   background-color: #182b3a;
+   background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%);
+   color: white;
 }
 
 #themenav{
