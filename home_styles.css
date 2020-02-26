@@ -305,7 +305,6 @@ div[class^="col-"]{
 }
 
 div.col-1-2{
-    margin-top: 30px;
     text-align: center;
 }
 
@@ -386,7 +385,7 @@ button.button2{
     transition-duration: 0.4s;
 }
 button.button3{
-    margin-top: 80px;
+    margin-top: 20px;
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
@@ -400,7 +399,7 @@ button.button3{
     transition-duration: 0.4s;
 }
 button.button4{
-    margin-top: 80px;
+    margin-top: 20px;
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
