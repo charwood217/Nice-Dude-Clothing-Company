@@ -16,7 +16,7 @@ html{
 
 body{
     width: 85%;
-    background-color: white;
+    background-color: lightblue;
     margin-left: auto;
     margin-right: auto;
 }
@@ -421,19 +421,19 @@ button.button4{
 }
   
 button.button1:hover{
-    background: black;
+    background: lemonchiffon;
     color: white;
 }
 button.button2:hover{
-    background: white;
+    background: lightblue;
     color: black;
 }
 button.button3:hover{
-    background: silver;
+    background: lightcoral;
     color: white;
 }
 button.button4:hover{
-    background: gold;
+    background: lightgoldenrodyellow;
     color: white;
 }
 
