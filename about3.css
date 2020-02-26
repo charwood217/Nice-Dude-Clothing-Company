@@ -17,7 +17,7 @@ html{
 
 body{
     width: 85%;
-    background-color: black;
+    background-color: silver;
     margin-left: auto;
     margin-right: auto;
 }
@@ -248,13 +248,9 @@ article p{
 
 .drdan{
     border: 3.5px outset;
-    height: 200px;
-    width: 300px;
 }
 .boxer{
     border: 3.5px outset;
-    height: 400px;
-    width: 300px;
 }
 
 

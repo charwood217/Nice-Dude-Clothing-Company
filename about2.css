@@ -12,12 +12,11 @@ html{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    color: aliceblue;
 }
 
 body{
     width: 85%;
-    background-color: black;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
 }
@@ -117,6 +116,7 @@ button.theme2:hover{
 article{
     width: 100%;
     font-size: 15px;
+    color: black
 }
 
 article h1{
@@ -129,6 +129,7 @@ article h1{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 
 /* the caption of wwhat each photo is and their aligment along with font size */
@@ -248,13 +249,9 @@ article p{
 
 .drdan{
     border: 3.5px outset;
-    height: 200px;
-    width: 300px;
 }
 .boxer{
     border: 3.5px outset;
-    height: 400px;
-    width: 300px;
 }
 
 

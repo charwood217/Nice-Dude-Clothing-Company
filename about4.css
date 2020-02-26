@@ -7,7 +7,7 @@
 
 /* html stuff */
 html{
-    background-image: url("goldback.png");
+    background-image: url("backbabyback.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -17,7 +17,7 @@ html{
 
 body{
     width: 85%;
-    background-color: black;
+    background-color: goldenrod;
     margin-left: auto;
     margin-right: auto;
 }
@@ -123,7 +123,7 @@ article h1{
     text-align: center;
     font-size: 42px;
     margin-top: 136px;
-    background-color: goldenrod;
+    background-color: silver;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     border-radius: 20px;
     width: 50%;
@@ -248,13 +248,9 @@ article p{
 
 .drdan{
     border: 3.5px outset;
-    height: 200px;
-    width: 300px;
 }
 .boxer{
     border: 3.5px outset;
-    height: 400px;
-    width: 300px;
 }
 
 
