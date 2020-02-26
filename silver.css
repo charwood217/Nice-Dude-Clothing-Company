@@ -226,7 +226,7 @@ button.button3{
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
-    color: black;
+    color: silver;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -240,7 +240,7 @@ button.button4{
     border: outset;
     text-align: center;
     background: rgb(119, 114, 114);
-    color: black;
+    color: goldenrod;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
