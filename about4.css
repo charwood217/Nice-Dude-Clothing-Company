@@ -276,7 +276,7 @@ button.button4{
 button.button1:hover{
     background-color: gold;
     background-image: linear-gradient(315deg, black 0%, black 74%);
-    color: white;
+    color: gold;
 }
 button.button2:hover{
     background-color: #aecad6;
