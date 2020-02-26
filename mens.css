@@ -33,7 +33,7 @@ div.bar{
    margin-right: none;
    padding-top: 10px;
    padding-bottom: 15px;
-   word-spacing: 65px;
+   word-spacing: 50px;
    font-size: 20px;
    position: fixed;
    top: 0;  
@@ -72,7 +72,6 @@ article{
 article h1{
    text-align: center;
    font-size: 42px;
-   margin-top: 136px;
    background-color: goldenrod;
    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
    border-radius: 20px;
@@ -88,8 +87,8 @@ figcaption{
 }
  
 figure img{
-   width:345%;
-   height: 352%;
+   width:50%;
+   height: 50%;
    text-align: center;
    border:  grey 5px outset;
 }
@@ -128,9 +127,9 @@ div.col-1-2{
  
 div.col-1-1{width: 100%}
 div.col-1-2{width: 50%}
-div.col-1-10{width: 10%}
+div.col-1-10{width: 12%}
 div.col-9-10{
-   width: 90%;
+   width: 88%;
    margin-top: 78px;
    margin-bottom: none;
 }
@@ -266,87 +265,6 @@ button.button4:hover{
    margin-top: 100px;
 }
 
-/* for the buttons above the H1 */
-/* ------------------------------------------------- */
-button.button1{
-   margin-top: 80px;
-   border: outset;
-   text-align: center;
-   background: rgb(119, 114, 114);
-   color: black;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   font-family: 'Aldrich', sans-serif;
-   transition-duration: 0.4s;
-}
-
-button.button2{
-   margin-top: 80px;
-   border: outset;
-   text-align: center;
-   background: rgb(119, 114, 114);
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   font-family: 'Aldrich', sans-serif;
-   transition-duration: 0.4s;
-}
-button.button3{
-   margin-top: 80px;
-   border: outset;
-   text-align: center;
-   background: rgb(119, 114, 114);
-   color: silver;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   font-family: 'Aldrich', sans-serif;
-   transition-duration: 0.4s;
-}
-button.button4{
-   margin-top: 80px;
-   border: outset;
-   text-align: center;
-   background: rgb(119, 114, 114);
-   color: goldenrod;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   font-family: 'Aldrich', sans-serif;
-   transition-duration: 0.4s;
-}
- 
-button.button1:hover{
-   background: black;
-   color: white;
-}
-button.button2:hover{
-   background: white;
-   color: black;
-}
-button.button3:hover{
-   background: silver;
-   color: white;
-}
-button.button4:hover{
-   background: gold;
-   color: white;
-}
-
-#themenav{
-   text-align: center;
-   margin-top: 100px;
-}
 
 
 
